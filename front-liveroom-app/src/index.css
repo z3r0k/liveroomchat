@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-dark: #FF0080;
+  --color-brand-card: #151A23;
+  --color-brand-primary: #FF0080;
+  --color-brand-secondary: #7928CA;
+  --color-brand-accent: #06b6d4;
+}
+
+/* Aseguramos que la app ocupe toda la altura */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
